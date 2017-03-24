@@ -28,7 +28,7 @@ To change how the GA runs, you can change the parameters sent to the GA in run_g
 
 To change which problem you are solving with the GA, you have to change the fitness function. This change involves 2 steps in the code: change the import statement to the other fitness file, and change the line that calls the constructor so that "coloring" becomes the name of the fitness function you want to test with:
 
-'''fitness_class = coloring.coloring(string_length)'''
+```fitness_class = coloring.coloring(string_length)```
 
 # The Output
 
