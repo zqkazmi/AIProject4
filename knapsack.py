@@ -23,7 +23,7 @@ class knapsack:
 
 		#create a random set of items of sizes between 10 and max
 		for i in range(string_length):
-			sizelist.append(random.uniform(10,self.maxSize/2))
+			sizelist.append(random.uniform(10,self.maxSize/3))
 		self.sizes = np.array(sizelist)
 
 		#print "sizes are:" 
